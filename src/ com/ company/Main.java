@@ -1,9 +1,8 @@
 package com.company;
 
 public class Main {
-
-    public static void main(String[] args) {
-    	String[] arr = {"Z11-100", "Z12-150", "Z13-120", "Z11-80", "Z12-50", "Z13-40", "Z11-200", "Z12-0", "Z13-10", "Z11-170"};
+   public static void main(String[] args) {
+	String[] arr = {"Z11-100", "Z12-150", "Z13-120", "Z11-80", "Z12-50", "Z13-40", "Z11-200", "Z12-0", "Z13-10", "Z11-170"};
     	double fuelZ11 = 46.1;
     	double fuelZ12 = 47.5;
     	double fuelX13 = 48.9;
@@ -82,7 +81,5 @@ public class Main {
 		//System.out.println("z13 " + sumZ13);
 		System.out.println("\nmin " + min);
 		System.out.println("max " + max);
-	  }public static void main(String[] args) {
-	// write your code here
     }
 }
